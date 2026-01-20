@@ -1,0 +1,16 @@
+#trust-badge {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    padding: 12px 20px;
+    background-color: #2563eb; /* Blue */
+    color: white;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    border-radius: 50px;
+    z-index: 2147483647; /* High Z-index to float on top */
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+}
